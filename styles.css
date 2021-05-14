@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.game {
+    height: auto;
+    padding-bottom: 100px;
+    background: rgb(1,0,80);
+    background: linear-gradient(
+        180deg,
+        rgba(1,0,80,1) 0%,
+        rgba(47,52,145,1)100%
+    );
+
+}
+
+.score {
+    color: #fafafa;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.score h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.intro {
+    color: #fafafa;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity 0.5s ease;
+}
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro button,
+.partido button {
+    width: 25%;
+    height: 50px;
+    background: none;
+    border: none;
+    color: #21202e;
+    font-size: 20px;
+    background: red;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #ce7816;
+    background: -webkit-linear-gradient(
+        to bottom,
+        #f5
+    );
+
+}
